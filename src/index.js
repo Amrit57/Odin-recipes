@@ -20,17 +20,6 @@ function pageLoader() {
     nav.appendChild(home);
     nav.appendChild(menu);
     nav.appendChild(contact);
-    
-    function homePage() {
-        const text = document.createElement('div')
-        text.textnav = 'this is homepage'
-        text.classList.add('blue');
-        return text
-
-    }
-    home.appendChild(homePage())
-
-
     main.appendChild(nav)
     main.appendChild(content);
     return main;

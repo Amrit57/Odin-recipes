@@ -1,16 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif, serif;
 }
+:root {
+  --cursive-font: "Dancing Script", cursive;
+  --font-color: white;
+  --grey-bg: #c2bdbd93;
+}
 #main {
-  height: 100vh;
+  height: 1100px;
   background: url(./images/brick-wall-1834784_640.jpg) no-repeat;
-  background-size: 100vw 100vh;
+  background-size: 100vw 1100px;
 }
 #nav {
-  color: white;
+  color: var(--font-color);
   height: 50px;
   display: flex;
   justify-content: center;
@@ -18,23 +24,66 @@
   align-items: center;
   gap: 10px;
 }
-#nav li{
-    padding: 8px 10px;
-    cursor: pointer;
-    width: 80px;
-    text-align: center;
-    border-radius: 10px;
+#nav li {
+  padding: 8px 10px;
+  cursor: pointer;
+  width: 100px;
+  text-align: center;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 1.2rem;
 }
-#nav li:hover{
-    background: #e4dcdc1e;
-    color: black;
-    transition: ease-in 0.1s;
+#nav li:hover {
+  background: var(--grey-bg);
+  color: black;
+  transition: ease-in 0.2s;
 }
-#content{
-    background: blue;
-    height: auto;
+#content {
+  margin: auto;
+  /* background: #000; */
+  height: 80vh;
 }
-.blue {
-  color: white;
-  font-size: 20px;
+#home-text {
+  text-align: center;
+  margin: 100px auto;
+  padding-top: 50px;
+  height: 500px;
+}
+#home-text h1 {
+  margin-bottom: 30px;
+  font-family: var(--cursive-font);
+  font-size: 6rem;
+}
+#home-text p {
+    font-size: 2rem;
+    font-style: italic;
+    font-family: var(--cursive-font);
+    margin: 10px;
+}
+#menu-text {
+    padding: 20px;
+}
+#menu-text > div {
+  width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background: var(--grey-bg);
+  color: black;
+  display: flex;
+  gap: 20px;
+}
+#menu-text p {
+  font-size: 1.3rem;
+  padding: 10px 0px;
+  font-family: var(--cursive-font);
+}
+#menu-text .price {
+  font-size: 1.4rem;
+  font-family: var(--cursive-font);
+  font-weight: 700;
+}
+#menu-text img {
+  width: 200px;
+  border-radius: 10px;
 }

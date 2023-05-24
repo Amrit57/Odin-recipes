@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif, serif;
+}
+#main {
+  height: 100vh;
+  background: url(./images/brick-wall-1834784_640.jpg) no-repeat;
+  background-size: 100vw 100vh;
+}
+#nav {
+  color: white;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  align-items: center;
+  gap: 10px;
+}
+#nav li{
+    padding: 8px 10px;
+    cursor: pointer;
+    width: 80px;
+    text-align: center;
+    border-radius: 10px;
+}
+#nav li:hover{
+    background: #e4dcdc1e;
+    color: black;
+    transition: ease-in 0.1s;
+}
+#content{
+    background: blue;
+    height: auto;
+}
+.blue {
+  color: white;
+  font-size: 20px;
+}

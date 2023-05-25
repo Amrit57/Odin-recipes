@@ -2,7 +2,6 @@
   "name": "odin-recipes",
   "version": "1.0.0",
   "description": "This is a HTML project. website for different food recipes.",
-  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "webpack --watch",

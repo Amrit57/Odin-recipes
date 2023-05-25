@@ -58,6 +58,8 @@
   font-size: 2rem;
   font-style: italic;
   font-family: var(--cursive-font);
+  text-shadow: 2px 2px 5px;
+
   margin: 10px;
 }
 #menu-text {

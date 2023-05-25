@@ -68,5 +68,11 @@ export default function pageLoader() {
 
     main.appendChild(nav)
     main.appendChild(content);
+
+    const footer = document.createElement('div')
+    footer.setAttribute('id', 'footer')
+    footer.textContent = 'Copyright by Amrit Lama Syangbo @ 2023'
+
+    main.appendChild(footer)
     return main;
 }

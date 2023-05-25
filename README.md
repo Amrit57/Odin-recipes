@@ -1,6 +1,8 @@
 # Odin-recipes
-This is a HTML project. website for different food recipes.
+This is a restaurant page created using modules and webpack.
 
-Contains three different recipes with each pages. Completed HTML project.
+All the HTML elements are created using JS adn CSS.
 
-Created using ES6 modules and NPM webpack.
+Contains three different tabs with each modules.
+
+Completed in 2023 by Amrit Lama Syangbo under co-ordindation with THE ODIN PROJECT.

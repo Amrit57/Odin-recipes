@@ -11,9 +11,9 @@
   --grey-bg: #c2bdbd93;
 }
 #main {
-  height: 1100px;
+  height: 1000px;
   background: url(./images/brick-wall-1834784_640.jpg) no-repeat;
-  background-size: 100vw 1100px;
+  background-size: 100vw 1000px;
 }
 #nav {
   color: var(--font-color);
@@ -40,28 +40,28 @@
 }
 #content {
   margin: auto;
-  /* background: #000; */
-  height: 80vh;
+  height: 800px;
 }
 #home-text {
   text-align: center;
-  margin: 100px auto;
-  padding-top: 50px;
+  margin: 0px auto;
+  padding-top: 200px;
   height: 500px;
 }
 #home-text h1 {
   margin-bottom: 30px;
   font-family: var(--cursive-font);
   font-size: 6rem;
+  text-shadow: 2px 2px 5px red;
 }
 #home-text p {
-    font-size: 2rem;
-    font-style: italic;
-    font-family: var(--cursive-font);
-    margin: 10px;
+  font-size: 2rem;
+  font-style: italic;
+  font-family: var(--cursive-font);
+  margin: 10px;
 }
 #menu-text {
-    padding: 20px;
+  padding: 20px;
 }
 #menu-text > div {
   width: 600px;
@@ -72,6 +72,11 @@
   color: black;
   display: flex;
   gap: 20px;
+  box-shadow: 0px 2px 2px red;
+}
+#menu-text h2 {
+  font-style: italic;
+  letter-spacing: 0.1rem;
 }
 #menu-text p {
   font-size: 1.3rem;
@@ -86,4 +91,72 @@
 #menu-text img {
   width: 200px;
   border-radius: 10px;
+}
+#contact-wrapper {
+  background: var(--grey-bg);
+  width: 500px;
+  margin: 20px auto;
+  padding: 30px;
+  display: grid;
+  gap: 20px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 10px 10px rgba(0, 0, 0, 0.514);
+  letter-spacing: 0.2rem;
+}
+#contact-wrapper div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  padding: 10px;
+  box-shadow: 0px 2px 2px red;
+}
+#contact-wrapper input {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  font-size: 1.1rem;
+  background: rgb(206, 200, 200);
+}
+#contact-wrapper input:hover {
+  background: rgba(0, 0, 0, 0.514);
+  transition: 0.2s;
+}
+#contact-wrapper input:focus {
+  background: white;
+}
+#contact-wrapper button {
+  padding: 15px;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  color: var(--font-color);
+  background: rgba(0, 0, 0, 0.514);
+  box-shadow: 0px 2px 2px red;
+}
+#contact-wrapper button:hover {
+  color: black;
+  background: red;
+  transition: 0.2s;
+}
+#contact-wrapper button:active {
+  background: var(--font-color);
+  color: black;
+}
+#contact-wrapper h1 {
+  text-align: center;
+  font-family: var(--cursive-font);
+}
+#footer {
+  font-size: 1.5rem;
+  color: white;
+  font-family: var(--cursive-font);
+  font-weight: bold;
+  text-align: center;
+  margin: 0px auto;
+  width: 500px;
+  position: relative;
+  top: 5px;
 }

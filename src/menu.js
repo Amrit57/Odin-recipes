@@ -3,7 +3,7 @@ import recipeOneImage from './images/chicken.jpg';
 import recipeTwoImage from './images/recipe2.jpg';
 import recipeThreeImage from './images/recipe3.jpg';
 
-export default function homeRender() {
+export default function menuRender() {
    const menu = document.createElement('div');
    menu.setAttribute('id', 'menu-text');
 
@@ -15,7 +15,7 @@ export default function homeRender() {
    const recipeOneImg = document.createElement('img')
    recipeOneImg.src = recipeOneImage;
    recipeONePrice.classList.add('price');
-   recipeOneName.textContent = 'Chicken Marinade';
+   recipeOneName.textContent = 'Italian Chicken Marinade';
    recipeONeInfo.textContent = 'These savory-sweet shrimp skewers are easy to make and cook in just a few minutes, however use what you have on hand'
    recipeONePrice.textContent = '$15'
    recipeOne.appendChild(recipeOneImg)
@@ -30,7 +30,7 @@ export default function homeRender() {
    const recipeTwoName = document.createElement('h2')
    const recipeTwoInfo = document.createElement('p')
    const recipeTwoPrice = document.createElement('p')
-   recipeTwoName.textContent = 'Chicken Sekuwa';
+   recipeTwoName.textContent = 'Grilled Teriyaki Shrimp';
    recipeTwoInfo.textContent = 'These savory-sweet shrimp skewers are easy to make and cook in just a few minutes, however use what you have on hand';
    recipeTwoPrice.textContent = '$10';
    recipeTwoImg.src = recipeTwoImage;
@@ -48,7 +48,7 @@ export default function homeRender() {
    const recipeThreeName = document.createElement('h2')
    const recipeThreeInfo = document.createElement('p')
    const recipeThreePrice = document.createElement('p')
-   recipeThreeName.textContent = 'Pork Sekuwa';
+   recipeThreeName.textContent = 'Grilled Pork Sekuwa';
    recipeThreeInfo.textContent = 'These savory-sweet shrimp skewers are easy to make and cook in just a few minutes, however use what you have on hand'
    recipeThreePrice.textContent = '$20';
    recipeThreeImg.src = recipeThreeImage;

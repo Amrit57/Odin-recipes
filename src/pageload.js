@@ -21,7 +21,6 @@ export default function pageLoader() {
     nav.appendChild(menu);
     nav.appendChild(contact);
 
-
     const menuTab = menuPage();
     const homeTab = homePage();
     const contactTab = contactPage();
